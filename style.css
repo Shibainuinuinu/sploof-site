@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.symbols{
+    width: 100px;
+    height: 100px;
+}
+
+.homepagesections h1 {
+    display: inline;
+}
