@@ -12,3 +12,15 @@
 .homepagesections h1 {
     display: inline;
 }
+
+.title img{
+    display: inline;
+}
+
+.centerThings{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
