@@ -2,7 +2,6 @@
     margin: 0;
     padding:0;
     box-sizing: border-box;
-    font-size: 15px;
 }
 
 .symbols{
@@ -10,6 +9,16 @@
     height: 100px;
 }
 
-.sectionheadings > * {
+.homepagesections h1 {
     display: inline;
+}
+
+.title img{
+    display: inline;
+}
+
+.centerThings{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
