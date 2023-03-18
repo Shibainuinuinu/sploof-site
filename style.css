@@ -4,9 +4,24 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color:rgb(211, 214, 216);
+}
+.body{
+    position: relative; 
+    /*relative means positioned based on where that element should've been in the normal FLOW, 
+    absolute means position it based on the nearest positoned parent or the <body> */
+    top:150px;
+}
+
 .symbols{
     width: 100px;
     height: 100px;
+}
+
+.logo{
+    width: 75px;
+    height: 75px;
 }
 
 .homepagesections h1 {
@@ -21,4 +36,31 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+header {
+    position: fixed;
+    background-color: black;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navLinks a{
+    margin-right: 20px;
+}
+
+nav a {
+    margin: 0;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+    padding-left: 20px;
+}
+
+nav a:hover{
+    opacity: 0.8;
+    text-decoration: underline;
 }
