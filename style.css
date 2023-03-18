@@ -2,16 +2,25 @@
     margin: 0;
     padding:0;
     box-sizing: border-box;
+    color: white;
+    font-family: Baskerville, sans-serif;
+    font-size: 15px;
+}
+
+h1{
+    font-size: 32px;
 }
 
 body{
-    background-color:rgb(211, 214, 216);
+    /* background: linear-gradient(45 deg,  #d3d6d8, rgba()) */
+    background: linear-gradient(90deg, #232526, #414345);
+  
 }
 .body{
     position: relative; 
     /*relative means positioned based on where that element should've been in the normal FLOW, 
     absolute means position it based on the nearest positoned parent or the <body> */
-    top:150px;
+    top:120px;
 }
 
 .symbols{
@@ -20,12 +29,19 @@ body{
 }
 
 .logo{
-    width: 75px;
-    height: 75px;
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
 }
 
 .homepagesections h1 {
     display: inline;
+}
+
+.homepagesections{
+    padding: 30px;
+    margin-top: 50px;
+
 }
 
 .title img{
@@ -46,6 +62,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 10000;
+
 }
 
 .navLinks a{
@@ -62,5 +80,4 @@ nav a {
 
 nav a:hover{
     opacity: 0.8;
-    text-decoration: underline;
 }
