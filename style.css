@@ -7,20 +7,23 @@
     font-size: 15px;
 }
 
-h1{
-    font-size: 32px;
+body{
+    /* background: linear-gradient(90deg, #232526, #414345); */
+    background: rgb(22, 21, 21);
 }
 
-body{
-    /* background: linear-gradient(45 deg,  #d3d6d8, rgba()) */
-    background: linear-gradient(90deg, #232526, #414345);
-  
-}
+/* footer{
+    background: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+} */
+
 .body{
     position: relative; 
     /*relative means positioned based on where that element should've been in the normal FLOW, 
     absolute means position it based on the nearest positoned parent or the <body> */
-    top:120px;
+    top:60px;
 }
 
 .symbols{
@@ -32,6 +35,10 @@ body{
     width: 40px;
     height: 40px;
     margin-left: 20px;
+}
+
+h1{
+    font-size: 32px;
 }
 
 .homepagesections h1 {
@@ -46,6 +53,8 @@ body{
 
 .title img{
     display: inline;
+    width:50px;
+    height: 50px;
 }
 
 .centerThings{
@@ -54,16 +63,15 @@ body{
     align-items: center;
 }
 
+
 header {
-    position: fixed;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.288);
     padding: 20px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 10000;
-
 }
 
 .navLinks a{
