@@ -7,62 +7,7 @@
     font-size: 15px;
 }
 
-body{
-    /* background: linear-gradient(90deg, #232526, #414345); */
-    background: rgb(22, 21, 21);
-}
-
-/* footer{
-    background: black;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-} */
-
-.body{
-    position: relative; 
-    /*relative means positioned based on where that element should've been in the normal FLOW, 
-    absolute means position it based on the nearest positoned parent or the <body> */
-    top:60px;
-}
-
-.symbols{
-    width: 100px;
-    height: 100px;
-}
-
-.logo{
-    width: 40px;
-    height: 40px;
-    margin-left: 20px;
-}
-
-h1{
-    font-size: 32px;
-}
-
-.homepagesections h1 {
-    display: inline;
-}
-
-.homepagesections{
-    padding: 30px;
-    margin-top: 50px;
-
-}
-
-.title img{
-    display: inline;
-    width:50px;
-    height: 50px;
-}
-
-.centerThings{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
+/* START OF NAV BAR THINGS */
 
 header {
     background-color: rgba(0, 0, 0, 0.288);
@@ -89,3 +34,62 @@ nav a {
 nav a:hover{
     opacity: 0.8;
 }
+
+/* END OF NAV BAR THINGS */
+
+/* START OF HOME PAGE TITLE THINGS */
+
+.title{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.leftTitle{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.title h1{
+    font-size: 50px;
+}
+
+/* END OF HOME PAGE TITLE THINGS */
+
+.logo{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+}
+
+body{
+    /* background: linear-gradient(90deg, #232526, #414345); */
+    background: rgb(22, 21, 21);
+}
+
+.body{
+    position: relative; 
+    /*relative means positioned based on where that element should've been in the normal FLOW, 
+    absolute means position is based on the nearest positioned parent or the <body> */
+    top:60px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+.homepagesections{
+    padding: 30px;
+    margin-top: 50px;
+
+}
+
+.centerThings{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
